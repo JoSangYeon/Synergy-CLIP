@@ -1,2 +1,2 @@
-# ECAI2024---Synergy-CLIP
+# ECAI2024-Synergy-CLIP
 ECAI2024 : Synergy-CLIP
