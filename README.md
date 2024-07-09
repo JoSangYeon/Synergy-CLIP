@@ -1,4 +1,4 @@
-# ECAI2024 : Synergy-CLIP
+# Synergy-CLIP
 
 ##  Synergy-CLIP : Extending CLIP with Multi-Modal Integration for Robust Representation Learning
 
