@@ -14,10 +14,23 @@ This paper presents "Synergy-CLIP", an innovative extension of the CLIP framewor
 
 ![step 1_3 - Synergy-CLIP](https://github.com/JoSangYeon/ECAI2024-Synergy-CLIP/assets/28241676/b6f812d9-121a-4045-a674-5e85af31385c)
 
-#### Missing Modal Reconstruction
-
-![step 2 - MMR(1)](https://github.com/JoSangYeon/ECAI2024-Synergy-CLIP/assets/28241676/d0f5ab58-43de-4bb7-9f7a-c43207134cce)
-
 ### Result
 
-![MMR_polt_2](https://github.com/JoSangYeon/ECAI2024-Synergy-CLIP/assets/28241676/5680990f-d8e0-4806-8b21-ee88a8b36e9d)
+#### Image domain
+| Model               | Oxford-IIIT Pets | Flowers-102 | CIFAR-10 | CIFAR-100 |
+|---------------------|------------------|-------------|----------|-----------|
+| ResNet 152 [11]      | 93.00            | 89.60       | 93.50    | 78.00     |
+| BiT-M [42]           | 92.40            | 99.30       | 97.60    | 88.20     |
+| ViT-B [39]           | 90.40            | 97.60       | 96.70    | 86.30     |
+| ViT-L [39]           | 92.90            | 98.70       | 97.90    | 89.00     |
+| CLIP: ViT-B [11]     | 90.00            | 96.90       | 95.10    | 80.50     |
+| CLIP: ViT-L [11]     | 95.10            | 99.20       | 98.00    | 87.50     |
+| **Synergy-CLIP**     |                  |             |          |           |
+| Baseₚ : img enc.     | 91.99 ± 0.05     | 97.68 ± 0.02| 97.31 ± 0.01 | 83.28 ± 0.04 |
+| Basec : img enc.     | 91.76 ± 0.01     | 97.22 ± 0.04| 97.04 ± 0.01 | 87.25 ± 0.03 |
+| Largeₚ : img enc.    | 94.40 ± 0.02     | 99.54 ± 0.01| 98.22 ± 0.01 | 90.82 ± 0.02 |
+| Largec : img enc.    | 94.73 ± 0.01     | 98.80 ± 0.08| 98.39 ± 0.02 | 90.74 ± 0.02 |
+
+#### Audio domain
+
+#### text domain
